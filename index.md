@@ -1,3 +1,3 @@
 layout: page
-title: "Tattoos"
+title: Neural Nets Project Proposal: "Tattoo Designer"
 permalink: /nn-project-website
