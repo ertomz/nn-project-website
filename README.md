@@ -46,3 +46,8 @@ When Everett Randle got the tattoo created by DALL-E2, people started to worry t
 ## Database
 
 I could not find any explicit databases of images of tattoos (one might work but it is the preliminary database for identifying criminals based on their tattoos). In their 2020 Medium post, Betin walks through how they designed StyleGan2, including how they collected the tattoo images and then scraped and cleaned the data. This process could be mimicked and likely improved in this project.
+
+## References
+<a id="1">[1]</a>
+Vuksic, Goran. “Ai and Tattoos: How We Built a Neural Network for Tattoo Style Recognition.” AI and Tattoos: How We Built a Neural Network for Tattoo Style Recognition, Medium, 25 Aug. 2017, https://blog.tattoodo.io/ai-and-tattoos-how-we-built-a-neural-network-for-tattoo-style-recognition-6e641df99a05. 
+
