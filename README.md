@@ -16,6 +16,8 @@ Much of the existing work around neural networks and tattoos revolve around clas
 
 While art generating models exist, there are no major ones that are specifically trained on images of tattoos. You can ask Midjourney, for example, for images of a "simple flower tattoo on a woman's arm", as seen below, but no major model is trained solely on tattoos. 
 
+![Midjourney 1](/images/midjourney1.png)
+
 <p float="left">
   <img src=/images/midjourney1.png height="300">
   <img src=/images/midjourney2.png height="300">
