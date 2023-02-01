@@ -14,11 +14,22 @@ I propose a neural net that is trained on a dataset of a wide range of images of
 
 Much of the existing work around neural networks and tattoos revolve around classification. Tattoodo is a platform that allows its 1 million users to search for tattos based on styles, motifs, and artists they like. Employees trained a neural network to recognize and classify different tattoos based on styles and motifs such as water color, traditional, dragons, flora, etc. They used Caffe, a deep learning framework, and Nvidia's Deep Learning GPU Training System (Vuksic, 2017). However, this is just classification, not generation. 
 
-While art generating models exist, there are no major ones that are specifically trained on images of tattoos. You can ask Midjourney, for example, for images of a "simple flower tattoo on a woman's arm", as seen below, but no major model is trained solely on tattoos. There are some smaller models, however, that exist but have very rarely been used.
+While art generating models exist, there are no major ones that are specifically trained on images of tattoos. You can ask Midjourney, for example, for images of a "simple flower tattoo on a woman's arm", as seen below, but no major model is trained solely on tattoos. 
 
-In 2020 Vasily Betin created StyleGan2, which does generate unique tattoos from their own scraped and cleaned Pinterest image dataset, but it is not widely used and seems like it could be improved. The main article I found about it was a Medium post by the creator. 
+![Midjourney image 1](/images/midjourney1.png)
 
-In 2022 a man named Everett Randle used Dall-E2, a model created by OpenAI that creates photos and art from human language, to generate a tattoo. Not only that, but he actually then got that tattoo (Hood, 2022). It appears as if that was the first time someone got a real tattoo that a model produced. 
+![Midjourney image 2](/images/midjourney2.png)
+
+There are some smaller models, however, that exist but have very rarely been used.
+
+In 2020 Vasily Betin created StyleGan2, which does generate unique tattoos from his own scraped and cleaned Pinterest image dataset, but it is not widely used and seems like it could be improved. However, he ended actually getting a tattoo that his model generated. The main article I found about it was a Medium post by the creator. 
+
+![StyleGan2](/images/StyleGan2.png)
+
+In 2022 a man named Everett Randle used Dall-E2, a model created by OpenAI that creates photos and art from human language, to generate a tattoo. Not only that, but he actually then got that tattoo (Hood, 2022). The article claims that this was the first time someone got a real tattoo that a model produced, although it appears as though Betin beat him to it. 
+
+![StyleGan2](/images/Dall-E2.png)
+
 
 Thus, there appears to be a lot of potential to produce someting new and better and specifically focus it on tattoos.
 
