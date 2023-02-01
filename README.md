@@ -12,7 +12,7 @@ This has interesting potential because of the recent generative art AI models. S
 
 I propose a neural net that is trained on a dataset of a wide range of images of tattoos.
 
-Much of the existing work around neural networks and tattoos revolve around classification. Tattoodo is a platform that allows its 1 million users to search for tattos based on styles, motifs, and artists they like. Employees trained a neural network to recognize and classify different tattoos based on styles and motifs such as water color, traditional, dragons, flora, etc. They used Caffe, a deep learning framework, and Nvidia's Deep Learning GPU Training System (Vuksic, 2017). However, this is just classification, not generation. 
+Much of the existing work around neural networks and tattoos revolve around classification. Tattoodo is a platform that allows its 1 million users to search for tattos based on styles, motifs, and artists they like. Employees trained a neural network to recognize and classify different tattoos based on styles and motifs such as water color, traditional, dragons, flora, etc. They used Caffe, a deep learning framework, and Nvidia's Deep Learning GPU Training System [[3]](#3). However, this is just classification, not generation. 
 
 While art generating models exist, there are no major ones that are specifically trained on images of tattoos. You can ask Midjourney, for example, for images of a "simple flower tattoo on a woman's arm", as seen below, but no major model is trained solely on tattoos. 
 
@@ -21,11 +21,11 @@ While art generating models exist, there are no major ones that are specifically
 
 There are some smaller models, however, that exist but have very rarely been used.
 
-In 2020 Vasily Betin created StyleGan2, which does generate unique tattoos from his own scraped and cleaned Pinterest image dataset, but it is not widely used and seems like it could be improved. However, he ended actually getting a tattoo that his model generated. The main article I found about it was a Medium post by the creator. 
+In 2020 Vasily Betin created StyleGan2, which does generate unique tattoos from his own scraped and cleaned Pinterest image dataset, but it is not widely used and seems like it could be improved. However, he ended actually getting a tattoo that his model generated [[1]](#1). The main article I found about it was a Medium post by the creator. 
 
 ![StyleGan2](/images/StyleGan2.png)
 
-In 2022 a man named Everett Randle used Dall-E2, a model created by OpenAI that creates photos and art from human language, to generate a tattoo. Not only that, but he actually then got that tattoo (Hood, 2022). The article claims that this was the first time someone got a real tattoo that a model produced, although it appears as though Betin beat him to it. 
+In 2022 a man named Everett Randle used Dall-E2, a model created by OpenAI that creates photos and art from human language, to generate a tattoo. Not only that, but he actually then got that tattoo [[2]](#2). The article claims that this was the first time someone got a real tattoo that a model produced, although it appears as though Betin beat him to it. 
 
 ![Dall-E2](/images/Dall-E2.png)
 
@@ -40,14 +40,22 @@ Skin color comes to mind first – how many images in the dataset are of tattoo
 
 Another consideration is training the model on tattoos that have indigenous roots. It may be problematic for the model to create new tattoos that mimic tribal and other indigenous tattoos.
 
-When Everett Randle got the tattoo created by DALL-E2, people started to worry that the model could become "some kind of branding machine" (Hood, 2022). I agree, but I also think that this could be addressed by managing what images are used in training and offering complete transparensy with how the model is trained.
+When Everett Randle got the tattoo created by DALL-E2, people started to worry that the model could become "some kind of branding machine" [[2]](#2). I agree, but I also think that this could be addressed by managing what images are used in training and offering complete transparensy with how the model is trained.
 
 
 ## Database
 
-I could not find any explicit databases of images of tattoos (one might work but it is the preliminary database for identifying criminals based on their tattoos). In their 2020 Medium post, Betin walks through how they designed StyleGan2, including how they collected the tattoo images and then scraped and cleaned the data. This process could be mimicked and likely improved in this project.
+I could not find any explicit databases of images of tattoos (one might work but it is the preliminary database for identifying criminals based on their tattoos). In his 2020 Medium post, Betin walks through how he designed StyleGan2, including how they collected the tattoo images and then scraped and cleaned the data [[1]](#1). This process could be mimicked and likely improved in this project.
 
 ## References
 <a id="1">[1]</a>
-Vuksic, Goran. “Ai and Tattoos: How We Built a Neural Network for Tattoo Style Recognition.” AI and Tattoos: How We Built a Neural Network for Tattoo Style Recognition, Medium, 25 Aug. 2017, https://blog.tattoodo.io/ai-and-tattoos-how-we-built-a-neural-network-for-tattoo-style-recognition-6e641df99a05. 
+Betin, Vasily. “Artificially Generated Tattoo.” Artificially Generated Tattoo, Medium, 12 Mar. 2020, https://medium.com/vasily-betin/artificially-generated-tattoo-2d5fbe0f5146. 
 
+<a id="2">[2]</a>
+Hood, Lonnie Lee. “Man Gets Tattoo of Art Created by Neural Network.” Man Gets Tattoo of Art Created By Neural Network, Futurism, 10 Apr. 2022, https://futurism.com/the-byte/tattoo-created-by-neural-network. 
+
+<a id="3">[3]</a>
+Schweitzer, Annette. “How Ai Can Help You Find the Perfect Tattoo.” Getting Good Ink: How AI Can Help You Find the Perfect Tattoo, NVIDIA Blog, 29 Sept. 2017, https://blogs.nvidia.com/blog/2017/09/29/find-the-perfect-tattoo/. 
+
+<a id="4">[4]</a>
+Vuksic, Goran. “Ai and Tattoos: How We Built a Neural Network for Tattoo Style Recognition.” AI and Tattoos: How We Built a Neural Network for Tattoo Style Recognition, Medium, 25 Aug. 2017, https://blog.tattoodo.io/ai-and-tattoos-how-we-built-a-neural-network-for-tattoo-style-recognition-6e641df99a05. 
