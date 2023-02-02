@@ -47,6 +47,17 @@ When Everett Randle got the tattoo created by DALL-E2, people started to worry t
 
 I could not find any explicit databases of images of tattoos (one might work but it is the preliminary database for identifying criminals based on their tattoos). In his 2020 Medium post, Betin walks through how he designed StyleGan2, including how they collected the tattoo images and then scraped and cleaned the data [[1]](#1). This process could be mimicked and likely improved in this project.
 
+
+## Project Goals
+
+1. Create (if can't find) a large dataset of images of tattoos. 
+2. Learn about image scraping and cleaning.
+3. Research and potentailly improve upon pre-existing art generation models and train it specifically on the tattoo dataset.
+4. Research various opinions around the ethics of producing arificial art.
+5. Have fun!
+6. Get a tattoo! 
+
+
 ## References
 <a id="1">[1]</a>
 Betin, Vasily. “Artificially Generated Tattoo.” Artificially Generated Tattoo, Medium, 12 Mar. 2020, https://medium.com/vasily-betin/artificially-generated-tattoo-2d5fbe0f5146. 
