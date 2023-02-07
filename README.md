@@ -6,23 +6,23 @@
 
 ## Introduction
 
-# Introductory Paragraph 
+### Introductory Paragraph 
 
 Current art generators can produce tattoo recommendations which can be considered unrealistic and intimidating, with emphasis on artistic values over reasonable tattoo recommendations. Additionally, many people get similar tattoos that are popular or trending. We aim to create a model trained solely on images of tattoos that can produce unique tattoo designs based on a user’s preferences.
 
-# Background Paragraph 
+### Background Paragraph 
 
 This is an interesting problem to address simply because it has barely been done. There are many models that are trained off artwork and can create something original, but only rarely has a model like this been trained solely on images of tattoos. We only found two people that have attempted this, but their models have not been used widely if at all beyond for personal purposes. Beyond this, tattoo generation is a difficult problem to address because it poses many ethical issues, as outlined in the ethics section later on.
 
-# Transition Paragraph
+## Transition Paragraph
 
 To make the generated tattoo images more realistic, we can augment traditional image generation neural networks with parameters like color, simplicity of the style, location, and size.
 
-# Details Paragraph
+### Details Paragraph
 
 Possible technical challenges of our project include a) finding explicit databases of images of tattoos b) implementation of image scraping and cleaning c) exploring and improving available training model on tattoo images. 
 
-# Assessment Paragraph
+### Assessment Paragraph
 
 This project (hopefully) successfully built a tattoo generation model which was capable of producing tattoos based upon user input while producing uniquely designed art which attempted to avoid plagiarism of other artistic works. 
 
