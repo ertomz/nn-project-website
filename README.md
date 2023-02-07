@@ -1,3 +1,4 @@
+# Designing Tattoos with a Neural Network
 
 ## Introduction
 
