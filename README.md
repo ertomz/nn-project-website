@@ -1,8 +1,3 @@
-# Designing Tattoos with a Neural Network
-
-
-## Members: Ayelet, Emily, Eryn, Justin, Vivian
-
 
 ## Introduction
 
@@ -14,7 +9,7 @@ Current art generators can produce tattoo recommendations which can be considere
 
 This is an interesting problem to address simply because it has barely been done. There are many models that are trained off artwork and can create something original, but only rarely has a model like this been trained solely on images of tattoos. We only found two people that have attempted this, but their models have not been used widely if at all beyond for personal purposes. Beyond this, tattoo generation is a difficult problem to address because it poses many ethical issues, as outlined in the ethics section later on.
 
-## Transition Paragraph
+### Transition Paragraph
 
 To make the generated tattoo images more realistic, we can augment traditional image generation neural networks with parameters like color, simplicity of the style, location, and size.
 
