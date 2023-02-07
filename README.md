@@ -1,6 +1,6 @@
 # Designing Tattoos with a Neural Network
 
-# Members: Ayelet, Emily, Eryn, Justin, Vivian
+## Members: Ayelet, Emily, Eryn, Justin, Vivian
 
 ## Problem
 
