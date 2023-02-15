@@ -1,5 +1,51 @@
 # Designing Tattoos with a Neural Network
 
+## Related Works
+
+### How We Built a Neural Network for Tattoo Style Recognition
+
+Vuksic, Goran. “Ai and Tattoos: How We Built a Neural Network for Tattoo Style Recognition.”, _Medium_, 25 Aug. 2017, https://blog.tattoodo.io/ai-and-tattoos-how-we-built-a-neural-network-for-tattoo-style-recognition-6e641df99a05. 
+Vuksic’s 2017 blog post describes the process of developing Tattoodo, an online platform for tattoo art that now utilized a neural network to recognize and classify different tattoo styles. They offer users a personalized tattoo feed based on preferred artists, styles (such as tribal, water color, or traditional), and motifs (such as flora, swords, or dragons). Developers used a deep learning network called Caffe along with Nvidia’s Deep Learning GPU Training System to train the neural network.
+
+### Man Gets Tattoo of Art Created by Neural Network
+
+Hood, Lonnie Lee. “Man Gets Tattoo of Art Created by Neural Network”, _Futurism_, 10 Apr. 2022, https://futurism.com/the-byte/tattoo-created-by-neural-network. 
+Hood’s recent 2022 article talks about DALL-E2, a neural network created by OpenAI that “turns natural human language into realistic photos and art,” (Hood, 2022). One man decided to ask the network to design him a simple tattoo of the letter A which he then got tattooed on his arm. Due to potential network biases, some worry that DALL-E2 could end up being “some kind of branding machine,” especially if people continue to get tattoos of images it generates.
+
+### Artificially Generated Tattoo
+
+Betin, Vasily. “Artificially Generated Tattoo”, _Medium_, 12 Mar. 2020, https://medium.com/vasily-betin/artificially-generated-tattoo-2d5fbe0f5146. 
+In his 2020 Medium post Vasily Betin describes how his love for tattoos and technology led him to create his own tattoo generation model. He outlines how he created his dataset of images of tattoos by scraping Instagram and Pinterest, cleaned the data, trained the network on low then high resolution images, and then continued to upscale and perfect the model. After generating over 2,000 images, Vasily chose his favorites and actually got one tattooed on his arm. The model is released on RunwayML with a public Github Repo. 
+
+### Sketch-a-Net: A Deep Neural Network that Beats Humans
+
+Yu et. al. “Sketch-a-Net: A Deep Neural Network that Beats Humans”, _Springer Science & Business Media New York 2016_, 26 July 2016, https://link.springer.com/content/pdf/10.1007/s11263-016-0932-3.pdf
+Many tattoos are actually sketches - having edges but lacking visual cues such as color and texture.  The paper presents Sketch-a-Net, which is designed for sketch rather than natural photo statistics, exploits the unique sketch-domain properties to modify and synthesize sketch training data and therefore increase the volume and diversity of sketches for training, and explores different network ensemble fusion strategies.
+
+### Generative Art: Between the Nodes of Neuron Networks
+
+Caldas Vianna, Bruno. “Generative Art: Between the Nodes of Neuron Networks.” A_rtnodes, no. 26_, 2020, https://doi.org/10.7238/a.v0i26.3350. 
+Caldas Vianna’s 2002 paper on generative art discusses the history of GANs (generative adversarial networks such as StyleGAN2) that can generate images. Without clear answers, they pose questions about the originality of generated art and whether or not we can formalize aesthetics by putting certain rules into a model. They question whose art it is, as it may be unique but not totally original. Finally, Caldas Vianna seems to think that right now images created by NNs will not be mistaken for replicas or real art – they’re not there yet, but that’s a question for the future.
+
+### Can: Creative adversarial networks, generating “art” by learning about styles and deviating from style norms
+
+Elgammal, Ahmed, et al. "Can: Creative adversarial networks, generating “art” by learning about styles and deviating from style norms." 2017. https://arxiv.org/abs/1706.07068
+Elgammal et al.’s paper on using General Adversarial Networks (GAN) to produce art which is as unique to other artists’ works as possible. Their research found that they could generate art from other designs and drawings which were indistinguishable from works found in art galleries to human subjects, and even sometimes preferred to human works. 
+
+### Tattoo-GAN
+
+This one is on github so it has some open sources: 
+https://github.com/silkdom/Tattoo-GAN
+This project uses generative adversarial network models  (DCGAN & StyleGAN2) to generate tattoo images. It created a tattoo dataset by first compiling a potential list of tattoo artists on instagram and scraping the contents they produced. It adapts a state of the art architecture, Nvidia's StyleGAN2 (Repo), and trains the dataset on a VM (500GB / P5000 GPU). 
+
+### State of the arts (online AI tattoo generators)
+https://www.tattoosai.com/explore
+https://neural.love/ai-art-generator/1ed20058-8956-6ef0-86b4-f9527de7d626/tattoo-made-by-ai
+https://aitattoo.net
+https://www.tattoojenny.com
+
+###
+
 ## Introduction
 
 ### Introductory Paragraph 
