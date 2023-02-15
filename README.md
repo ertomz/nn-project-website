@@ -46,11 +46,14 @@ This project uses generative adversarial network models  (DCGAN & StyleGAN2) to 
 
 ### State of the arts (online AI tattoo generators)
 https://www.tattoosai.com/explore
+
 https://neural.love/ai-art-generator/1ed20058-8956-6ef0-86b4-f9527de7d626/tattoo-made-by-ai
+
 https://aitattoo.net
+
 https://www.tattoojenny.com
 
-###
+
 
 ## Introduction
 
