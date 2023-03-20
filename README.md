@@ -1,5 +1,18 @@
 # Designing Tattoos with a Neural Network
 
+## Methods
+
+Our methods for this project fall into three major steps. First, we will collect images to create a tattoo dataset. Second, we will create pieces of a GAN from scratch (the discriminator and generator neural networks). Third, we will utilize and modify an existing StyleGAN to generate tattoo images.
+
+We will create our dataset by scraping images from Google Images and using FastAI. 
+We aim to collect 500 distinct images, where similar images would not count as distinct. If we are unable to do so we will reduce the goal number in accordance with what we are able to scrape for this project, taking into consideration the limitation of data and especially time and cost. We could also use data augmentation if we don’t have enough data: cropping images, changing backgrounds and skin tones, zooming in and zooming out, etc. 
+
+The challenges we may face when collecting our data is that the scraped images will have varying backgrounds which may make it difficult to isolate the data required. For example, tattoo images may appear on body parts or art on a plain white background. We plan to address this problem by attempting to use a helper function or program which can remove the backgrounds of tattoos, and placing them on homogeneous backgrounds.
+
+For our model, we will use an existing GAN (such as Pytorch DCGAN,  text-2-image, or StyleGAN). We will first use only the outline of these models and attempt to write our own neural networks that will act as a discriminator and a generator. We will connect the generator and discriminator: formatting input and output, configuring the dataset, and fine-tuning the parameters. Then we will train our network on the images from our dataset and run it. After that, we will fully utilize an existing GAN (likely StyleGAN), train on our images, and create new images from the network. We will look at the results and modify certain attributes such as learning rate, number of epochs, and batch size as needed. 
+
+Our project will focus on generating realistic tattoo images on people’s bodies, within the constraints of the class.
+
 ## Related Works
 
 ### How We Built a Neural Network for Tattoo Style Recognition
